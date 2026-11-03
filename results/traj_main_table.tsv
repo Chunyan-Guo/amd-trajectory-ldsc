@@ -1,0 +1,18 @@
+disease	name	relative_direction	RR	counts	pct_female	age_years	CODE_DIFF_DAYS	p_dir_fmt	q_fdr	is_obstetric_perinatal
+H54	Visual impairment including blindness (binocular or monocular)	H35 before disease	3.50262	1679.0	57.8	67.4	597.62	3.61e-91	1.1770491147540984e-90	False
+H57	Other disorders of eye and adnexa	H35 before disease	3.1223	1595.0	58.4	60.5	534.51	3.15e-13	3.800365715151515e-13	False
+N08	Glomerular disorders in diseases classified elsewhere	H35 before disease	2.03294	136.0	37.5	59.0	809.79	9.60e-09	1.0110990999999999e-08	False
+E16	Other disorders of pancreatic internal secretion	H35 before disease	1.30068	1140.0	50.1	68.8	811.68	1.32e-12	1.5651503988095238e-12	False
+M32	Systemic lupus erythematosus	disease before H35	3.1311	120.0		55.5	601.05	4.11e-14	5.045405462962963e-14	False
+E10	Type 1 diabetes mellitus	disease before H35	2.01138	3281.0	49.3	64.3	712.53	7.45e-106	2.7447004981481482e-105	False
+H10	Conjunctivitis	disease before H35	1.6821	1134.0	56.5	65.4	596.88	6.70e-32	1.1498034724137932e-31	False
+O24	Diabetes mellitus in pregnancy	disease before H35	1.56723	81.0	100.0	31.1	591.15	9.19e-20	1.2697382944444444e-19	True
+M31	Other necrotizing vasculopathies	disease before H35	1.50388	955.0	67.1	73.1	614.41	4.93e-15	6.20965267721519e-15	False
+I65	Occlusion and stenosis of precerebral arteries, not resulting in cerebral infarction	disease before H35	1.28181	612.0	44.1	71.4	690.92	8.48e-18	1.147532281632653e-17	False
+E11	Type 2 diabetes mellitus	disease before H35	1.16041	6765.0	50.5	69.8	706.41	1.42e-81	4.411553265625e-81	False
+H81	Disorders of vestibular function	disease before H35	1.14224	1601.0	66.8	74.3	801.01	5.09e-34	9.288505743119264e-34	False
+M35	Other systemic involvement of connective tissue	disease before H35	1.13406	1653.0	73.4	73.0	727.26	5.64e-08	5.729456719387755e-08	False
+I10	Essential (primary) hypertension	disease before H35	1.13047	19540.0	58.6	70.4	694.85	2.64e-37	5.204638118811881e-37	False
+I20	Angina pectoris	disease before H35	1.11298	6328.0	52.7	72.7	869.7	<1e-300	1.0473684210526316e-299	False
+G45	Transient cerebral ischaemic attacks and related syndromes	disease before H35	1.10962	3122.0	53.9	74.4	734.99	7.54e-11	8.472396892655368e-11	False
+E78	Disorders of lipoprotein metabolism and other lipidaemias	disease before H35	1.0782	5758.0	51.1	70.6	791.08	2.17e-13	2.6334798475609755e-13	False

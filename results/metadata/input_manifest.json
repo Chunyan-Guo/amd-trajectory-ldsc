@@ -1,0 +1,297 @@
+{
+ "description": "Input manifest: cryptographic binding of every shipped result to the exact pipeline input files it was computed from.",
+ "generated": "2026-11-01",
+ "note_raw_downloads": "FinnGen R11 raw .gz files (~815 MB each) were not retained after munging and are not hashed here; they are re-obtainable byte-exactly via scripts/01_download.py (size+gzip verified). The munged per-trait files below are the direct inputs to LD score regression. environment_check.json field raw_ready:0 records this post-cleanup state (raw downloads absent), not a pipeline failure.",
+ "ld_scores": {
+  "reference_snp_list (ldsnps.txt.gz, 9,997,231 SNPs)": {
+   "sha256": "bc14b9d6eca45501a63d3d8e638cfadb554de197241a66fc353d29e3cc1d5a13",
+   "size": 23625266
+  },
+  "ld1.l2.ldscore.gz": {
+   "sha256": "17acc1fe1a293a96246384f24418a4d522cee6d2602d265c6413b97a2bf47373",
+   "size": 8428897
+  },
+  "ld10.l2.ldscore.gz": {
+   "sha256": "e48f14736d6dbf9ed270332f0171cd417dd771a9e2c85ad6c32f0689c9cfae13",
+   "size": 5495083
+  },
+  "ld11.l2.ldscore.gz": {
+   "sha256": "b87850b96d567ba849a93a7e619fff1536aef697467e43d7018aadca5d3841f9",
+   "size": 5347604
+  },
+  "ld12.l2.ldscore.gz": {
+   "sha256": "fee4cfd89e8cec57be2bbec34fc14ee0c88369d966433dd3b769b308097476e9",
+   "size": 5167762
+  },
+  "ld13.l2.ldscore.gz": {
+   "sha256": "b9059a2299e34a180b29deabd15b2e81491b43950fc5d72bee2ca0b352881dab",
+   "size": 3910057
+  },
+  "ld14.l2.ldscore.gz": {
+   "sha256": "4b1fe9078144d5ef55e66ad9b63623c21a752f5538060e4df95aacf6ed33ef03",
+   "size": 3549151
+  },
+  "ld15.l2.ldscore.gz": {
+   "sha256": "6d528d5022a558e20f8fb255b5a27b88f746c81f841c8d98f0afabb362c3d9c1",
+   "size": 3164584
+  },
+  "ld16.l2.ldscore.gz": {
+   "sha256": "8fb4176504d17a201c4459443abe2f4fda84d1ad551029f2c2caaad4b12f7fdb",
+   "size": 3495431
+  },
+  "ld17.l2.ldscore.gz": {
+   "sha256": "623a47aa5bd9450a030f24dcada68afa51a271431609c93e676cfac0959bbcc8",
+   "size": 2956709
+  },
+  "ld18.l2.ldscore.gz": {
+   "sha256": "07b34ae284e229904686091f19f2aa5f4a0d9341307f569708223657353aa490",
+   "size": 3105245
+  },
+  "ld19.l2.ldscore.gz": {
+   "sha256": "a7fb8f572058b984c17b487e2087dd96654a00372aceb83b0852c811836679bc",
+   "size": 2535218
+  },
+  "ld2.l2.ldscore.gz": {
+   "sha256": "f07908ed01716fe0524b467ff11014c567484dfefc4855f3eda6152dd3011af1",
+   "size": 9209681
+  },
+  "ld20.l2.ldscore.gz": {
+   "sha256": "5d96ef8bb399a0b7c602fe053379dc0c5448a33d3b6638dafa05d9d4a7d8068d",
+   "size": 2349137
+  },
+  "ld21.l2.ldscore.gz": {
+   "sha256": "aceb932e30c0de69f93c19bd59cc795ae93d418e23a7e289bb4a03f9ac4c76de",
+   "size": 1488067
+  },
+  "ld22.l2.ldscore.gz": {
+   "sha256": "8925fcc17b7a4c6423d756ad4614962ad9961165d46b4463040d109116137586",
+   "size": 1505344
+  },
+  "ld3.l2.ldscore.gz": {
+   "sha256": "e26de431f6386bec88ac26781d1f88fa23ce25c0f167b1d7a23427566811d771",
+   "size": 7706684
+  },
+  "ld4.l2.ldscore.gz": {
+   "sha256": "0b762f4e25b6291d01de381a24427bfbc6a75603604771cdfa0e5f6376a10858",
+   "size": 7924259
+  },
+  "ld5.l2.ldscore.gz": {
+   "sha256": "e83c2e3d9c11f12f33f776f95bf96c5a5c7c65ea7f997a7f198a95b4e0390e01",
+   "size": 6878440
+  },
+  "ld6.l2.ldscore.gz": {
+   "sha256": "59b793b0aa8021d000589da82dc33205b4e6adec5b66958ecc9698910807be5b",
+   "size": 7091928
+  },
+  "ld7.l2.ldscore.gz": {
+   "sha256": "c93a40cb82f473f4fd9784a0e4d05991af449bdad2e31335058e9c4c60b33657",
+   "size": 6420448
+  },
+  "ld8.l2.ldscore.gz": {
+   "sha256": "36119d2545b1731ee0541702a26b3d9d62710192a4158056d2a5360000799730",
+   "size": 5987823
+  },
+  "ld9.l2.ldscore.gz": {
+   "sha256": "6b3a954bb8f57b4a137386f3eeda446d1226b9cc3d4c10f837cc70712d592f88",
+   "size": 4730693
+  }
+ },
+ "traits": {
+  "mac": {
+   "finngen_endpoint": "H7_MACULADEGEN",
+   "download_url": "https://storage.googleapis.com/finngen-public-data-r11/summary_stats/finngen_R11_H7_MACULADEGEN.gz",
+   "munged_input": {
+    "file": "derived/mac.sumstats.tsv.gz (not shipped)",
+    "sha256": "35dd65800e01144368f69b6fbc2de53921abc8fbbb12107e33b4b20ceba7c38e",
+    "bytes": 123299382
+   },
+   "qc_output": {
+    "file": "results/qc_mac.json",
+    "sha256": "caa47420aaf30a52e702f6e6cd7fb0ba9645139d560439534d91dfba69426bd4"
+   }
+  },
+  "amd": {
+   "finngen_endpoint": "H7_AMD",
+   "download_url": "https://storage.googleapis.com/finngen-public-data-r11/summary_stats/finngen_R11_H7_AMD.gz",
+   "munged_input": {
+    "file": "derived/amd.sumstats.tsv.gz (not shipped)",
+    "sha256": "fb5011714b3ae2cc3629da822a74034f8cbd67e4810251541cd85a37063bd994",
+    "bytes": 123150786
+   },
+   "qc_output": {
+    "file": "results/qc_amd.json",
+    "sha256": "017b8d075eea699fa17d5fece5eef6d60e4add34de2a14c40b53e0f06bb07863"
+   }
+  },
+  "dry": {
+   "finngen_endpoint": "DRY_AMD",
+   "download_url": "https://storage.googleapis.com/finngen-public-data-r11/summary_stats/finngen_R11_DRY_AMD.gz",
+   "munged_input": {
+    "file": "derived/dry.sumstats.tsv.gz (not shipped)",
+    "sha256": "6f2995ed99546d711f05aa91c7dac5ec02ab7b15da0f6e13e7b858aa86383665",
+    "bytes": 123026668
+   },
+   "qc_output": {
+    "file": "results/qc_dry.json",
+    "sha256": "3865cf14fe446c5ddac1bb3908d270cf4c8b1578a376a6ae104860291e2fd318"
+   }
+  },
+  "wet": {
+   "finngen_endpoint": "WET_AMD",
+   "download_url": "https://storage.googleapis.com/finngen-public-data-r11/summary_stats/finngen_R11_WET_AMD.gz",
+   "munged_input": {
+    "file": "derived/wet.sumstats.tsv.gz (not shipped)",
+    "sha256": "a95dc07cdbc0c0ae033062b20412b6338866b88d89f55e651c39b7aa1f1d5d0e",
+    "bytes": 122937069
+   },
+   "qc_output": {
+    "file": "results/qc_wet.json",
+    "sha256": "bc9c85d27a6b4c091ee22270c8abcab7e80ffc6a04ca0c56475ab72940ac72d2"
+   }
+  },
+  "htn": {
+   "finngen_endpoint": "I9_HYPTENS",
+   "download_url": "https://storage.googleapis.com/finngen-public-data-r11/summary_stats/finngen_R11_I9_HYPTENS.gz",
+   "munged_input": {
+    "file": "derived/htn.sumstats.tsv.gz (not shipped)",
+    "sha256": "ffeb2d2060597a5c306f64cbda716f12c6914f4209962930d180eeccab2d2457",
+    "bytes": 124419717
+   },
+   "qc_output": {
+    "file": "results/qc_htn.json",
+    "sha256": "8ca0ed92ad59f0ebad9efe4870bcbf27bd4bea4fed8e672a5f27fbee43cef8a7"
+   }
+  },
+  "str": {
+   "finngen_endpoint": "C_STROKE",
+   "download_url": "https://storage.googleapis.com/finngen-public-data-r11/summary_stats/finngen_R11_C_STROKE.gz",
+   "munged_input": {
+    "file": "derived/str.sumstats.tsv.gz (not shipped)",
+    "sha256": "2a99d09c7abd475be4f1e456e61d037a4f581edf49b8602f760dcd08b941134e",
+    "bytes": 123523936
+   },
+   "qc_output": {
+    "file": "results/qc_str.json",
+    "sha256": "d49ff1abc797c49a3a8980d6c5ff383c7bfc00c527df317ef7814b0fa6394499"
+   }
+  },
+  "t2d": {
+   "finngen_endpoint": "T2D",
+   "download_url": "https://storage.googleapis.com/finngen-public-data-r11/summary_stats/finngen_R11_T2D.gz",
+   "munged_input": {
+    "file": "derived/t2d.sumstats.tsv.gz (not shipped)",
+    "sha256": "97442398e2ef264cc99b2511e6d0fccf390c4daee0273af0fd073626901efa0c",
+    "bytes": 124327151
+   },
+   "qc_output": {
+    "file": "results/qc_t2d.json",
+    "sha256": "2aa33ebbf787ec2d32d00709ab66b2afd46b930b0a18f09aabeb6ae3c7ac8e76"
+   }
+  },
+  "ckd": {
+   "finngen_endpoint": "N14_CHRONKIDNEYDIS",
+   "download_url": "https://storage.googleapis.com/finngen-public-data-r11/summary_stats/finngen_R11_N14_CHRONKIDNEYDIS.gz",
+   "munged_input": {
+    "file": "derived/ckd.sumstats.tsv.gz (not shipped)",
+    "sha256": "9e308e768379967abf2481a999161896aa8a995e056d2cb02d34d68ac694683a",
+    "bytes": 123148095
+   },
+   "qc_output": {
+    "file": "results/qc_ckd.json",
+    "sha256": "352b2670e586849fb5278a578b1da5e46179fa7829f396d63773c5c443cd56be"
+   }
+  },
+  "glom": {
+   "finngen_endpoint": "N14_GLOMERULAR",
+   "download_url": "https://storage.googleapis.com/finngen-public-data-r11/summary_stats/finngen_R11_N14_GLOMERULAR.gz",
+   "munged_input": {
+    "file": "derived/glom.sumstats.tsv.gz (not shipped)",
+    "sha256": "93c499b3bb4ff0cfc8a6d2ad4e726ff1ab6eddb38caa4be6e1364d04c64fdbc4",
+    "bytes": 122845005
+   },
+   "qc_output": {
+    "file": "results/qc_glom.json",
+    "sha256": "99f1673b2b22fb0e9eb4a5177087c149fffb8a6db56ffcad8d0f11e309670aab"
+   }
+  },
+  "dem": {
+   "finngen_endpoint": "F5_DEMENTIA",
+   "download_url": "https://storage.googleapis.com/finngen-public-data-r11/summary_stats/finngen_R11_F5_DEMENTIA.gz",
+   "munged_input": {
+    "file": "derived/dem.sumstats.tsv.gz (not shipped)",
+    "sha256": "ee4da614df30ca30d4dd48a3d08d4aade614134661afb6fc2ec11520af4b24a7",
+    "bytes": 123431651
+   },
+   "qc_output": {
+    "file": "results/qc_dem.json",
+    "sha256": "1b9e51745796cce76a85383999faf5d307fdaaefdb3b327f8e37500b2bf3084c"
+   }
+  },
+  "hear": {
+   "finngen_endpoint": "H8_OTHHEARINGLOSS",
+   "download_url": "https://storage.googleapis.com/finngen-public-data-r11/summary_stats/finngen_R11_H8_OTHHEARINGLOSS.gz",
+   "munged_input": {
+    "file": "derived/hear.sumstats.tsv.gz (not shipped)",
+    "sha256": "cbbd0ffd062c43ac896204690f166108cb307c80d3350ed615e85903f4563288",
+    "bytes": 123052876
+   },
+   "qc_output": {
+    "file": "results/qc_hear.json",
+    "sha256": "ff5f5c8539c9143cddf9b2f382ede92c9e54eb15798d4f23293d601a4bb46f57"
+   }
+  }
+ },
+ "trajectory": {
+  "dtb_export": {
+   "file": "data/dtb_supp1.tsv (shipped)",
+   "sha256": "cfd82f69de7c111b9929127bd227f81175882b731b3466ea83acde890dd53c48",
+   "bytes": 5623481
+  },
+  "derived_tables": {
+   "results/traj_all_pairs.tsv": {
+    "sha256": "632cd0153dc9ad45762482518451e9a339e4e01f0d2bc71eeb81d03e4c692f63"
+   },
+   "results/traj_main_table.tsv": {
+    "sha256": "980081a2047647a17290e04ffc4d035bb5c3c49567aafce8b754f011ada3c122"
+   }
+  }
+ },
+ "rg_outputs": {
+  "rg_mac_ckd.json": {
+   "sha256": "3b6f9249b2cf4acd5128be37360cc787c5a8bdf375480798332d9adca1418d96",
+   "inputs": "munged files of the two traits in the pair name; LD scores above"
+  },
+  "rg_mac_dem.json": {
+   "sha256": "04e62b1a0af19512c5dfda771a31182d45ee3b1afad33498021081a6fb341a1b",
+   "inputs": "munged files of the two traits in the pair name; LD scores above"
+  },
+  "rg_mac_glom.json": {
+   "sha256": "1788b5a48e4294f0ddc561785bdf13ad983f70440f320729b0213f7b91165aae",
+   "inputs": "munged files of the two traits in the pair name; LD scores above"
+  },
+  "rg_mac_hear.json": {
+   "sha256": "32a7ee0a4908d2e6c21d56b97c16c7566e463050f399dd82ce733c4fff8693a6",
+   "inputs": "munged files of the two traits in the pair name; LD scores above"
+  },
+  "rg_mac_htn.json": {
+   "sha256": "826f5e642e2f39a158774e50eb4db203fad0c4d0771c437ff4a80a2ad151c8a3",
+   "inputs": "munged files of the two traits in the pair name; LD scores above"
+  },
+  "rg_mac_str.json": {
+   "sha256": "a16d7e059582504ad548b0fc8cd98e86c266c05c52ebafdddfb0059033a90df2",
+   "inputs": "munged files of the two traits in the pair name; LD scores above"
+  },
+  "rg_mac_t2d.json": {
+   "sha256": "f25bda59f8f97d805b93aa847233c587866426ae774120810e060ddda3bb5821",
+   "inputs": "munged files of the two traits in the pair name; LD scores above"
+  },
+  "rg_pc_broad_dry.json": {
+   "sha256": "97a268fcc036ad8513c9f9160658887a74ff2aafedf5759702a3c87d225352bf",
+   "inputs": "munged files of the two traits in the pair name; LD scores above"
+  },
+  "rg_pc_dry_wet.json": {
+   "sha256": "33fc942597104b15055fb4a8d8db6aa451c511a3f77ff37da2744adf685cfa1b",
+   "inputs": "munged files of the two traits in the pair name; LD scores above"
+  }
+ }
+}

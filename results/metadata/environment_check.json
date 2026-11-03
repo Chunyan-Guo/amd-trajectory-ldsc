@@ -1,0 +1,63 @@
+{
+ "python": "3.12.12 (main, Oct  9 2025, 22:40:06) [GCC 12.2.0]",
+ "platform": "Linux-5.10.134-18.0.12.lifsea8.x86_64-x86_64-with-glibc2.36",
+ "cwd": "/tmp/pkg_run/pkg",
+ "packages": {
+  "pandas": "2.3.2",
+  "numpy": "2.2.5",
+  "scipy": "1.16.2"
+ },
+ "checks": {
+  "ld_files": 22,
+  "ld_header": "OK",
+  "ldsnps_lines": 9997231,
+  "raw_ready": 0,
+  "raw_detail": [
+   {
+    "endpoint": "H7_MACULADEGEN",
+    "ready": false
+   },
+   {
+    "endpoint": "H7_AMD",
+    "ready": false
+   },
+   {
+    "endpoint": "DRY_AMD",
+    "ready": false
+   },
+   {
+    "endpoint": "WET_AMD",
+    "ready": false
+   },
+   {
+    "endpoint": "I9_HYPTENS",
+    "ready": false
+   },
+   {
+    "endpoint": "C_STROKE",
+    "ready": false
+   },
+   {
+    "endpoint": "T2D",
+    "ready": false
+   },
+   {
+    "endpoint": "N14_CHRONKIDNEYDIS",
+    "ready": false
+   },
+   {
+    "endpoint": "N14_GLOMERULAR",
+    "ready": false
+   },
+   {
+    "endpoint": "F5_DEMENTIA",
+    "ready": false
+   },
+   {
+    "endpoint": "H8_OTHHEARINGLOSS",
+    "ready": false
+   }
+  ]
+ },
+ "disk_free_GB": 22.4
+}
